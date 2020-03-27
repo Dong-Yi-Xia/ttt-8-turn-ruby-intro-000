@@ -1,8 +1,3 @@
-def turn( )
-
-
-end
-
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -40,4 +35,8 @@ def position_taken?(board, index)
     return true
   end
 
+end
+
+def turn ( )
+  
 end
